@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E96808B298DBDE8000822C2 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E96808A298DBDE8000822C2 /* PopViewController.swift */; };
 		2E9BB216298C8DB2003C5BF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9BB215298C8DB2003C5BF7 /* AppDelegate.swift */; };
 		2E9BB218298C8DB2003C5BF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9BB217298C8DB2003C5BF7 /* SceneDelegate.swift */; };
 		2E9BB21A298C8DB2003C5BF7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9BB219298C8DB2003C5BF7 /* MapViewController.swift */; };
@@ -15,9 +16,12 @@
 		2E9BB222298C8DB3003C5BF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9BB220298C8DB3003C5BF7 /* LaunchScreen.storyboard */; };
 		2E9BB22F298C8F1F003C5BF7 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2E9BB22E298C8F1F003C5BF7 /* AlamofireImage */; };
 		2E9BB231298C9C30003C5BF7 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9BB230298C9C30003C5BF7 /* DroppablePin.swift */; };
+		2ED69819298DA3E1005F3FF0 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED69818298DA3E1005F3FF0 /* PhotoCell.swift */; };
+		2ED6981B298DA653005F3FF0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED6981A298DA653005F3FF0 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E96808A298DBDE8000822C2 /* PopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
 		2E9BB212298C8DB2003C5BF7 /* PixelCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9BB215298C8DB2003C5BF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E9BB217298C8DB2003C5BF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +31,8 @@
 		2E9BB221298C8DB3003C5BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E9BB223298C8DB3003C5BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E9BB230298C9C30003C5BF7 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
+		2ED69818298DA3E1005F3FF0 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		2ED6981A298DA653005F3FF0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				2E9BB219298C8DB2003C5BF7 /* MapViewController.swift */,
+				2E96808A298DBDE8000822C2 /* PopViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -93,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				2E9BB230298C9C30003C5BF7 /* DroppablePin.swift */,
+				2ED69818298DA3E1005F3FF0 /* PhotoCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -100,6 +108,7 @@
 		2E9BB22C298C8E17003C5BF7 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				2ED6981A298DA653005F3FF0 /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -182,9 +191,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E9BB21A298C8DB2003C5BF7 /* MapViewController.swift in Sources */,
+				2ED69819298DA3E1005F3FF0 /* PhotoCell.swift in Sources */,
+				2E96808B298DBDE8000822C2 /* PopViewController.swift in Sources */,
 				2E9BB231298C9C30003C5BF7 /* DroppablePin.swift in Sources */,
 				2E9BB216298C8DB2003C5BF7 /* AppDelegate.swift in Sources */,
 				2E9BB218298C8DB2003C5BF7 /* SceneDelegate.swift in Sources */,
+				2ED6981B298DA653005F3FF0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
