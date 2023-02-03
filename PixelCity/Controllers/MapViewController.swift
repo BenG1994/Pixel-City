@@ -12,6 +12,8 @@
 //authorization status (again)
 //tap getsture recognizer
 //flickr api
+//
+//
 
 import UIKit
 import MapKit
