@@ -30,7 +30,7 @@ class MapViewController: UIViewController, UIGestureRecognizerDelegate {
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet weak var pullUpView: UIView!
     @IBOutlet weak var mapViewBottomHeightConstraint: NSLayoutConstraint!
-//    @IBOutlet weak var mapViewBottomConstraint: NSLayoutConstraint!
+    @IBOutlet weak var mapViewBottomConstraint: NSLayoutConstraint!
     
     var locationManager = CLLocationManager()
     let authorizationStatus = CLLocationManager.authorizationStatus()
@@ -80,7 +80,7 @@ class MapViewController: UIViewController, UIGestureRecognizerDelegate {
     
     func animateViewUp() {
         mapViewBottomHeightConstraint.constant = 300
-//        mapViewBottomConstraint.bottomAnchor = 40
+        mapViewBottomConstraint.constant = 0
         UIView.animate(withDuration: 0.3) {
             self.view.layoutIfNeeded()
         }

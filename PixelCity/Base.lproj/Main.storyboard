@@ -85,6 +85,7 @@
                     </view>
                     <connections>
                         <outlet property="mapView" destination="bZU-g1-TGE" id="ut1-gm-M9q"/>
+                        <outlet property="mapViewBottomConstraint" destination="goc-OO-hqz" id="tdd-Zm-BRF"/>
                         <outlet property="mapViewBottomHeightConstraint" destination="EP1-Uk-Ju4" id="G2O-ip-7AL"/>
                         <outlet property="pullUpView" destination="R6W-QO-797" id="Cim-op-hFS"/>
                     </connections>
