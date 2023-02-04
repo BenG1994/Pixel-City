@@ -75,6 +75,7 @@ class MapViewController: UIViewController, UIGestureRecognizerDelegate {
     @objc func animateViewDown() {
         cancelAllSessions()
         mapViewBottomHeightConstraint.constant = 0
+        mapViewBottomConstraint.constant = -34
         UIView.animate(withDuration: 0.3) {
             self.view.layoutIfNeeded()
         }
