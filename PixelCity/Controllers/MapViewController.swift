@@ -5,20 +5,6 @@
 //  Created by Ben Gauger on 2/2/23.
 
 
-//MARK: - Things for readme
-
-//mapkit, view, pins/annnotations,
-//corelocation
-//authorization status (again)
-//tap getsture recognizer/ swipe
-//flickr api (troubleshooting same as alamorfire)
-//ui collection view
-//alamorefire (troubleshooting with newer version from tutorial)
-//alamofireimage
-//more json garbage
-//
-//
-
 import UIKit
 import MapKit
 import CoreLocation
@@ -186,13 +172,10 @@ extension MapViewController: MKMapViewDelegate{
                         self.removeSpinner()
                         self.removeProgressLabel()
                         self.collectionView?.reloadData()
-                        
                     }
                 }
             }
         }
-        
-        
     }
     
     func removePin() {
@@ -246,12 +229,6 @@ extension MapViewController: MKMapViewDelegate{
     
     
     func cancelAllSessions() {
-//        AF.Session.default.session.getTasksWithCompletionHandler { sessionDataTask, UploadDataTest, downloadData in
-//            sessionDataTask.forEach({$0.cancel()})
-//            downloadData.forEach {{$0.cancel()}
-//            }
-//        }
-        
         Alamofire.Session.default.cancelAllRequests()
     }
 }
@@ -293,5 +270,4 @@ extension MapViewController: UICollectionViewDelegate, UICollectionViewDataSourc
         popVC.initData(forImage: imageArray[indexPath.row])
         present(popVC, animated: true)
     }
-    
 }
