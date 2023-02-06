@@ -34,4 +34,4 @@ A smaller view is brought up when a user drops a pin to search for images and is
 
 ## Reflection
 
-This was an enojable project to work on to learn MapKit and further practice API implementation as both are common uses in iOS Development. Also as a photographer, it was intersting to another use for Flickr. It was also a good experience in having to work around certain technologies not being up to date and having to work around those issues to get a working solution.
+This was an enyojable project to work on to learn MapKit and further practice API implementation as both are common uses in iOS Development. Also as a photographer, it was intersting to another use for Flickr. It was also a good experience in having to work around certain technologies not being up to date and having to work around those issues to get a working solution.
