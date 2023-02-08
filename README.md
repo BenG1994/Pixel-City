@@ -10,7 +10,7 @@ Pixel City is from a tutorial by Devslopes with the focus on working with MapKit
 
 * MapKit (MKView, pins, annotations, regions)
 * CoreLocation and authorization status
-* Tag/Swipe Gestures
+* Tap/Swipe Gestures
 * Flickr API and implementation
 * JSON
 * UICollectionView
